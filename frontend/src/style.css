@@ -20,6 +20,30 @@
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
 
+@keyframes hometitle {
+  0% {
+    transform: translatex(6rem);
+    color: var(--color-primary-orange); }
+  40% {
+    color: var(--color-primary-orange); }
+  50% {
+    color: var(--color-primary-green); }
+  80% {
+    transform: translateX(-1rem); }
+  90% {
+    color: var(--color-primary-green); }
+  100% {
+    transform: translate(0);
+    color: var(--color-primary-green); } }
+
+@keyframes homepara {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem); }
+  100% {
+    transform: translate(0);
+    opacity: 1; } }
+
 * {
   margin: 0;
   padding: 0; }
@@ -123,3 +147,110 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5 rem; }
+
+.title {
+  display: flex;
+  height: 50rem;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 2rem; }
+  .title__title {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold; }
+    .title__title-logo {
+      display: flex;
+      align-items: center; }
+      .title__title-logo--logo {
+        display: inline;
+        height: 15rem;
+        width: 15rem; }
+      .title__title-logo--title {
+        display: inline;
+        font-size: 6rem;
+        line-height: 0.9;
+        word-spacing: 0.5;
+        font-weight: bold;
+        animation: hometitle 2s;
+        color: var(--color-primary-purple);
+        backface-visibility: hidden; }
+    .title__title-subtitle1 {
+      font-size: 2.5rem;
+      margin: 7rem 2rem 2rem;
+      animation: homepara 2s;
+      animation-delay: 4s; }
+    .title__title-subtitle2 {
+      font-size: 2.5rem;
+      margin: 2rem;
+      animation: homepara 2s;
+      animation-delay: 6s; }
+    .title__title-videodiv {
+      background-color: var(--color-primary-orange); }
+      .title__title-videodiv--heading {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-top: -15rem;
+        padding: 2rem; }
+      .title__title-videodiv--video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1%; }
+
+.upcomingevents {
+  background-color: var(--color-primary-orange);
+  padding-bottom: 4rem; }
+  .upcomingevents__heading {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding: 4rem 0 2rem;
+    font-weight: bold; }
+  .upcomingevents__contents {
+    margin: 0 auto; }
+  .upcomingevents .banner {
+    height: 35rem;
+    width: 60rem;
+    color: white; }
+    .upcomingevents .banner.banner-1 {
+      background-size: cover; }
+    .upcomingevents .banner.banner-2 {
+      background-size: cover; }
+    .upcomingevents .banner__contents-box {
+      height: 35rem;
+      width: 30rem; }
+    .upcomingevents .banner__contents {
+      padding: 18rem 0 1rem 1rem; }
+      .upcomingevents .banner__contents.banner__contents-club {
+        background-color: var(--color-primary-green-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%); }
+      .upcomingevents .banner__contents.banner__contents-teens {
+        background-color: var(--color-primary-orange-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%); }
+      .upcomingevents .banner__contents.banner__contents-kids {
+        background-color: var(--color-primary-purple-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%); }
+      .upcomingevents .banner__contents-logo--img {
+        width: 15rem;
+        height: 7rem; }
+        .upcomingevents .banner__contents-logo--img-2 {
+          padding-left: 1.5rem; }
+        .upcomingevents .banner__contents-logo--img-3 {
+          padding-left: 3rem; }
+      .upcomingevents .banner__contents-location {
+        text-transform: uppercase;
+        font-size: 2.2rem; }
+      .upcomingevents .banner__contents-month {
+        text-transform: uppercase;
+        font-size: 2.8rem; }
+      .upcomingevents .banner__contents-day {
+        text-transform: uppercase;
+        font-size: 2.8rem; }
+      .upcomingevents .banner__contents-organiser {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 200; }

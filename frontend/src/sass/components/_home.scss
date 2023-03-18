@@ -1,0 +1,143 @@
+.title {
+  display: flex;
+  height: 50rem;
+  justify-content: space-between;
+  position: relative;
+margin-top:2rem;
+  &__title {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    &-logo {
+      display: flex;
+      align-items: center;
+
+      &--logo {
+        display: inline;
+        height: 15rem;
+        width: 15rem;
+      }
+      &--title {
+        display: inline;
+        font-size: 6rem;
+        line-height: 0.9;
+        word-spacing: 0.5;
+        font-weight: bold;
+        animation: hometitle 2s;
+        color: var(--color-primary-purple);
+        backface-visibility: hidden;
+      }
+    }
+    &-subtitle1 {
+      font-size: 2.5rem;
+      margin: 7rem 2rem 2rem;
+      animation: homepara 2s;
+      animation-delay: 4s;
+    }
+    &-subtitle2 {
+      font-size: 2.5rem;
+      margin: 2rem;
+      animation: homepara 2s;
+      animation-delay: 6s;
+    }
+    &-videodiv {
+      background-color: var(--color-primary-orange);
+      &--heading {
+        text-align: center;
+        color: white;
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        margin-top: -15rem;
+        padding: 2rem;
+      }
+      &--video {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1%;
+      }
+    }
+  }
+}
+// Home page Upcoming events Section
+.upcomingevents {
+  background-color: var(--color-primary-orange);
+  padding-bottom: 4rem;
+  &__heading {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding: 4rem 0 2rem;
+    font-weight: bold;
+  }
+
+  &__contents {
+    margin: 0 auto;
+  }
+  ///Styling banner
+  .banner {
+    height: 35rem;
+    width: 60rem;
+    color: white;
+
+    &.banner-1 {
+    //   background-image: url(../images/img12.png);
+      background-size: cover;
+    }
+    &.banner-2 {
+    //   background-image: url(../images/img14.png);
+      background-size: cover;
+    }
+    &__contents-box {
+      height: 35rem;
+      width: 30rem;
+    }
+    &__contents {
+      padding: 18rem 0 1rem 1rem;
+      &.banner__contents-club {
+        background-color: var(--color-primary-green-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%);
+      }
+      &.banner__contents-teens {
+        background-color: var(--color-primary-orange-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%);
+      }
+      &.banner__contents-kids {
+        background-color: var(--color-primary-purple-light-transparent);
+        clip-path: polygon(0 0, 50% 50%, 100% 100%, 0 100%);
+      }
+      &-logo {
+        &--img {
+          width: 15rem;
+          height: 7rem;
+
+          &-2 {
+            padding-left: 1.5rem;
+          }
+          &-3 {
+            padding-left: 3rem;
+          }
+        }
+      }
+      &-location {
+        text-transform: uppercase;
+        font-size: 2.2rem;
+      }
+      &-month {
+        text-transform: uppercase;
+        font-size: 2.8rem;
+      }
+      &-day {
+        text-transform: uppercase;
+        font-size: 2.8rem;
+      }
+      &-organiser {
+        text-transform: uppercase;
+        font-size: 1.6rem;
+        font-weight: 200;
+      }
+    }
+  }
+}
