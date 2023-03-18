@@ -26,3 +26,10 @@ body {
   min-height: 100vh;
   overflow: visible;
 }
+.container {
+  max-width: 160rem;
+  margin: 3rem auto;
+  min-height: 100rem;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+}
