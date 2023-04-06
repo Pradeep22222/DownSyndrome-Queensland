@@ -203,7 +203,8 @@ body {
 
 .upcomingevents {
   background-color: var(--color-primary-orange);
-  padding-bottom: 4rem; }
+  padding-bottom: 4rem;
+  margin-top: 2rem; }
   .upcomingevents__heading {
     text-align: center;
     color: white;
@@ -217,6 +218,7 @@ body {
     width: 60rem;
     color: white; }
     .upcomingevents .banner.banner-1 {
+      background-image: url(./assits/images/pics/img3.jpg);
       background-size: cover; }
     .upcomingevents .banner.banner-2 {
       background-size: cover; }
@@ -254,3 +256,56 @@ body {
         text-transform: uppercase;
         font-size: 1.6rem;
         font-weight: 200; }
+
+.whyjoinprograms {
+  color: white;
+  padding: 5rem;
+  background-color: var(--color-primary-green);
+  position: relative; }
+  .whyjoinprograms__heading {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold; }
+  .whyjoinprograms__content {
+    text-align: center;
+    padding: 2rem;
+    min-height: 22rem; }
+    .whyjoinprograms__content-sayings {
+      font-size: 2.5rem;
+      color: var(--color-primary-orange-dark); }
+    .whyjoinprograms__content-character {
+      font-size: 2rem;
+      color: var(--color-primary-orange-dark);
+      font-style: italic;
+      margin-left: 50rem; }
+
+.videodiv {
+  background-color: var(--color-primary-purple-dark); }
+  .videodiv__div {
+    position: relative;
+    margin: 0 auto;
+    height: 70rem;
+    width: 100%; }
+    .videodiv__div::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .videodiv__div-video {
+      position: absolute;
+      height: 80%;
+      width: 70%;
+      top: 12rem;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0 auto; }
+      .videodiv__div-video::after {
+        content: "";
+        display: table;
+        clear: both; }
+    .videodiv__div-text {
+      text-align: center;
+      padding-top: 5rem;
+      font-size: 2.5rem;
+      color: white;
+      font-weight: bold; }

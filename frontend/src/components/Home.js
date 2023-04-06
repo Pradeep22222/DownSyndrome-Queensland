@@ -120,6 +120,93 @@ export const Home = () => {
             </div>
           </div>
         </div>
+        <div class="whyjoinprograms">
+          <div class="whyjoinprograms__heading">Why Join Social Programs</div>
+          <div class="whyjoinprograms__content">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="4000">
+                  <div>
+                    <p class="whyjoinprograms__content-sayings">
+                      I have made so many new friends from all over Queensland
+                    </p>
+                    <h5 class="whyjoinprograms__content-character">
+                      Sonya – Townsville
+                    </h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div>
+                    <p class="whyjoinprograms__content-sayings">
+                      It is an easy way to catch up with my friends
+                    </p>
+                    <h5 class="whyjoinprograms__content-character">
+                      Matthew – Brisbane
+                    </h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div>
+                    <p class="whyjoinprograms__content-sayings">
+                      I see how much Brianna gets out of going to the programs.
+                      She comes away from them so excited; she has found her
+                      comfort place and made such good friends. With each
+                      activity she attends, we notice she feels more and more
+                      comfortable. She already knows the leaders looking after
+                      the event. Through the work DSQ does, I can make Brianna
+                      more comfortable before she arrives. Going out without us
+                      or staying overnight ,she didn’t have the confidence
+                      before, but now she does, even to the point she can go
+                      stay over a friend’s house
+                    </p>
+                    <h5 class="whyjoinprograms__content-character">
+                      Julie – Brisbane
+                    </h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div>
+                    <p class="whyjoinprograms__content-sayings">
+                      Lunch Club is so much fun
+                    </p>
+                    <h5 class="whyjoinprograms__content-character">
+                      Kajal – Emerald
+                    </h5>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="4000">
+                  <div>
+                    <p class="whyjoinprograms__content-sayings">
+                      Social programs help the participants make friends
+                    </p>
+                    <h5 class="whyjoinprograms__content-character">
+                      Shelagh - Brisbane
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="videodiv">
+          <div class="videodiv__div">
+            <div class="videodiv__div-text">
+              Why Participants Love Social Programs
+            </div>
+            <iframe
+              class="videodiv__div-video"
+              src="https://www.youtube-nocookie.com/embed/TKhCkoidB4w"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </Container>
     </div>
   );
