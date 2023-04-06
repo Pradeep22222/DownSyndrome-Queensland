@@ -406,3 +406,11 @@ body {
   margin-top: 0.7rem; }
   .link_white:hover {
     color: var(--color-primary-green); }
+
+.contact {
+  background-color: var(--color-primary-purple); }
+  .contact_heading {
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom: 1px solid black; }

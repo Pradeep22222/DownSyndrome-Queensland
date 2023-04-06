@@ -311,3 +311,13 @@
     color: var(--color-primary-green);
   }
 }
+// footer
+.contact{
+  background-color:var(--color-primary-purple);
+  &_heading{
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom:1px solid black;
+  }
+}
