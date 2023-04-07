@@ -7,6 +7,7 @@ export const Contact = () => {
         <h1 className="contact_heading">
           Interested on keeping upto date with other DSQ information and
           services?
+          hmgit 
         </h1>
       </div>
     </div>
